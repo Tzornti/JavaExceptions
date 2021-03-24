@@ -1,4 +1,4 @@
-package Throw;
+package TryCatch;
 
 public class Sumando {
     //Clase que suma enteros positivos y hace Throw en caso de recibir un negativo

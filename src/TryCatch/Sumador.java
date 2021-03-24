@@ -1,4 +1,5 @@
-package Throw;
+package TryCatch;
+
 import java.util.Scanner;
 
 public class Sumador {
