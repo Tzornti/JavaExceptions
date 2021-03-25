@@ -1,8 +1,9 @@
 package TryCatch;
 
+import javax.swing.*;
 import java.util.Scanner;
 
-public class Sumador {
+public class SumadordePositivos {
     public static void main(String[] args) {
         var num1 = 0;
         var num2 = 0;
@@ -16,7 +17,7 @@ public class Sumador {
             primer.suma();
         }
         catch (IllegalArgumentException negative){
-            System.err.println(negative.getMessage());
+            negative.printStackTrace();
         }
     }
 }
